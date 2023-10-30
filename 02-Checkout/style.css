@@ -3,6 +3,7 @@ body,html {
   height:100%;
   margin:0;
   font-family:lato;
+
 }
 
 h2 {
@@ -221,19 +222,17 @@ ul li:hover {
   -webkit-transition:background .2s ease;
           transition:background .2s ease;
 }
-.dropdown-btn:after {
-  content: '\25BE';
-  right:8px;
-  position:absolute;
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:40% ;
 }
-.dropdown-btn:hover {
-  background:rgba(255,255,255,0.2);
-  -webkit-transition:background .2s ease;
-          transition:background .2s ease;
+.footer h4{
+  color: #5a5555;
 }
-.dropdown-select {
-  display:none;
-}
+
 .credit-card-image {
   display:block;
   max-height:80px;
